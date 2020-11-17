@@ -15,7 +15,7 @@ namespace lacos_de_repeticao
                  i++;
                  int resultado = num1 * i;
                  System.Console.WriteLine("------------------------------");
-                 Console.WriteLine(resultado);
+                        Console.WriteLine($"A multiplicação entre {num1} e {i} é {resultado}");
             }//Fim do while
         }
     }
